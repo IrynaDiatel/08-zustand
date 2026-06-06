@@ -16,11 +16,15 @@ export const metadata: Metadata = {
   title: "NoteHub",
   description: "Application for creating and managing notes",
   openGraph: {
-    title: "NoteHub",
-    description: "Application for creating and managing notes",
-    url: "https://ТВІЙ-ПРОЄКТ.vercel.app",
-    images: ["https://ac.goit.global/fullstack/react/notehub-og-meta.jpg"],
-  },
+  title: "NoteHub",
+  description: "Application for creating and managing notes",
+  url: "https://08-zustand-green-two.vercel.app",
+  images: [
+    {
+      url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
+    },
+  ],
+},
 };
 
 export default function RootLayout({
